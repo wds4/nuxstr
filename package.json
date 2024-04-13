@@ -4,7 +4,11 @@
   "license": "GPL-2.0-only",
   "homepage": "https://nuxstr.nostrver.se",
   "type": "module",
+  "engines": {
+    "node": "21.x"
+  },
   "scripts": {
+    "start": "node .output/server/index.mjs",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
